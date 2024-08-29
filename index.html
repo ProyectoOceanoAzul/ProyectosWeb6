@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+
+<!-- <!DOCTYPE html>    indicamos al navegaor q estamos trabajando con la ultima version de html5  -->
+
+<html lang="es">
+
+<!-- head   : van los metadatos informaocion q indiucamos al navegador para q identifique de forma correcta la pagian web -->
+
+<head>
+
+    <!-- html lang="es">    indica en q idioma esta escrinto el docuimento html -->
+
+    <!-- indicamos al navegador q tenbemos vocales con tilde -->
+    <!-- Lea codigo ASCII-->
+    <meta charset="UTF-8">
+
+    <!-- Para q el visitio web sea adaptable a cualquier dispositivo -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- contniendio de la pagina web -->
+    <meta name="description" content="Esta es mi primera pagina web">
+
+    <!-- para el motor de busquedad busque mi pagina / escanear-->
+    <meta name="robots" content="index, follow">
+
+    <!-- palabras claves para encontrar mi pagina web -->
+    <meta name="keywords" content="pagina, website, sitio web, mi primera">
+
+    <!-- Nombre de nuestra página -->
+    <meta name="copyright" content="Copyright © MiWeb.com">
+
+    <!-- Indicarle al autor de quien ha creado la pagina web -->
+    <meta name="Author" Lang="es" content="Gerson N">
+
+
+    <!-- para q la pagina se recargue cada 10 segundos de acuerdo al contenido -->
+    <meta http-equiv="refresh" content="10" />
+
+    <!-- 
+    observacion : para q despues de 5 segundos se recargue otra pogina web 
+
+    <meta http-equiv="refresh" content="5; url=https://www.youtube.com/@geronelo1435" />    
+    -->
+
+
+    <!-- normalize : agregamos un archivo .css -->
+    <link rel="stylesheet" href="./css/normalize.css">
+
+
+    <!-- estilos css : agregamos un archivo .css -->
+    <link rel="stylesheet" href="./css/estilos.css">
+
+
+
+
+    <!-- icono en la pagina web : para importar iconos -->
+    <link rel="shortcut icon" href="./imagenes/icon.png" type="image/x-icon">
+
+    <!-- 
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    -->
+
+    <!-- enlace para icnos de fontawesome -->
+    <script src="https://kit.fontawesome.com/2ad58faca7.js" crossorigin="anonymous"></script>
+
+
+
+    <!-- 
+    colocar un nombre referido a lo q contiene el documento html  y se mostrara en una pestaña -->
+    <title>PanaderiaMasitas</title>
+
+
+</head>
+
+
+<body>
+
+    <!-- 
+        <h5>Creamos Página Web de Panadería</h5>
+    -->
+
+
+    <header class="header">
+
+        <nav class="nav">
+            <img src="./imagenes/sobreNosotros/logo.png" alt="logo" title="logo" class="logo">
+
+
+            <ul class="nav-listItem">
+                <li class="li-nav"><a class="link-listItem" href="#sobreNosotros">Sobre Nosotros</a></li>
+                <li class="li-nav"><a class="link-listItem" href="#diferenciales">Diferenciales</a></li>
+                <li class="li-nav"><a class="link-listItem" href="#productos">Productos</a></li>
+                <li class="li-nav"><a class="link-listItem" href="#coontacto">Contactanos</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+
+
+    <main class="main">
+
+        <section id="sobreNosotros" class="section-acercaDeNosotros">
+            <article class="article-acercaDeNosotros">
+                <h2 class="titulosSeccion">Panadería Masitas</h2>
+                <p class="parrafo-acercaDeNosotros">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis excepturi debitis delectus ab
+                    voluptates laboriosam nemo sit. Possimus ad omnis, enim aut facere commodi in ipsa excepturi
+                    laudantium officia architecto!
+                    tempora voluptas repudiandae deserunt nemo voluptates! Ducimus iusto accusamus soluta
+                    tenetur ipsa nisi sequi a.
+                </p>
+            </article>
+
+            <div class="imagen-acercaDeNosotros">
+                <img src="./imagenes/sobreNosotros/bakery-1868925_640.jpg" alt="bakery" title="bakery">
+            </div>
+
+        </section>
+
+
+
+        <section id="diferenciales" class="section-diferenciales">
+            <h2 class="titulosSeccion tituloDiferenciales">Diferenciales</h2>
+
+            <div class="contenedores-diferenciales">
+                <article class="article-diferenciales">
+                    <h3 class="titulo-diferenciales">Calidad de los ingrediente</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde quibusdam impedit modi doloremque
+                        quaerat. Dolor quis aliquid voluptatem placeat illum. Ad, delectus doloremque? Maxime, mollitia
+                        praesentium iure dolorem corporis animi!
+                    </p>
+                </article>
+
+
+                <article class="article-diferenciales">
+                    <h3 class="titulo-diferenciales">Variedad de productos</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde quibusdam impedit modi doloremque
+                        quaerat. Dolor quis aliquid voluptatem placeat illum. Ad, delectus doloremque? Maxime, mollitia
+                        praesentium iure dolorem corporis animi!
+                    </p>
+                </article>
+
+
+                <article class="article-diferenciales">
+                    <h3 class="titulo-diferenciales">Atención al cliente</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde quibusdam impedit modi doloremque
+                        quaerat. Dolor quis aliquid voluptatem placeat illum. Ad, delectus doloremque? Maxime, mollitia
+                        praesentium iure dolorem corporis animi!
+                    </p>
+                </article>
+
+            </div>
+        </section>
+
+
+
+        <section id="productos" class="section-productos">
+            <h2 class="titulosSeccion tituloproductos">Productos</h2>
+
+            <div class="productos-contenedor">
+                <figure>
+                    <img src="./imagenes/productos/baguettes.jpg" alt="baguettes" title="baguettes"
+                        class="img-producto">
+                    <figcaption class="figcaption-producto">Baguettes</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="./imagenes/productos/sacramentos.jpg" alt="sacramentos" title="sacramentos"
+                        class="img-producto">
+                    <figcaption class="figcaption-producto">Sacramento</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="./imagenes/productos/churros.jpg" alt="churros" title="baguettes" class="img-producto">
+
+                    <figcaption class="figcaption-producto">Churros</figcaption>
+                </figure>
+
+
+                <figure>
+                    <img src="./imagenes/productos/tarta.jpg" alt="tarta" title="tarta" class="img-producto">
+
+                    <figcaption class="figcaption-producto">Tarta</figcaption>
+                </figure>
+
+            </div>
+
+        </section>
+
+
+
+        <section id="coontacto" class="contenedor-formulario">
+            <h2 class="titulosSeccion titulo-contacto">Formulario de contacto</h2>
+
+            <form action="#" method="post" class="formContainer">
+
+                <div class="contenedorinputs">
+
+                    <div>
+                        <input type="text" name="nombre" id="nombre" placeholder="Escrine tu nombre" required autofocus
+                            class="input">
+                    </div>
+
+
+                    <div>
+                        <input type="email" name="correo" id="correo" placeholder="usuario@email.com" required
+                            class="input">
+                    </div>
+
+
+                    <div>
+                        <p class="labelForm">Escribe tu consulta</p>
+                        <textarea name="consulta" id="consulta" rows="10" cols="40" class="input">
+
+                        </textarea>
+                    </div>
+
+                </div>
+
+                <button type="submit" class="btn-enviarDatos">Enviar datos</button>
+
+            </form>
+
+
+            <!--             <fieldset>
+                <legend>
+                    Formulario de contacto
+                </legend>
+
+
+
+            </fieldset>-->
+        </section>
+
+    </main>
+
+
+
+    <footer class="footer">
+        <div class="contenedor-footer">
+            <article class="contenedor-redes-sociales">
+                <h3 class="titulosSeccion titulo-footer">Redes sociales</h3>
+
+                <ul>
+                    <li>
+                        <a href="#">
+                            <i class="bi bi-facebook">Facebook</i>
+                        </a>
+                    </li>
+
+
+                    <li>
+                        <a href="#">
+                            <i class="bi bi-instagram">Instagram</i>
+                        </a>
+                    </li>
+
+
+                    <li>
+                        <a href="#">
+                            <i class="bi bi-youtube">Youtube</i>
+                        </a>
+                    </li>
+
+                </ul>
+            </article>
+
+
+            <article class="contenedor-informacion-contacto">
+                <h3 class="titulosSeccion titulo-footer">Información de contacto</h3>
+
+                <ul>
+
+                    <li>
+                        <a href="#">
+                            <i class="bi bi-envelope-at">Correo electrónico</i>
+                        </a>
+                    </li>
+
+
+                    <li>
+                        <a href="#">
+                            <i class="bi bi-linkedin">Linkein</i>
+                        </a>
+                    </li>
+
+                </ul>
+            </article>
+
+        </div>
+    </footer>
+
+
+</body>
+
+
+</html>
